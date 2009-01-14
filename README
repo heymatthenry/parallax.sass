@@ -1,5 +1,5 @@
-Parallax is a ridiculously awesome technique (If you're not familiar with it, go to http://silverbackapp.com/, grab a corner of the browser window and drag to resize). It's surprisingly easy to implement, to boot. And you're using Sass for your CSS, it's even easier now, if you just use this mixin.
+Parallax is a ridiculously awesome technique (If you're not familiar with it, go to http://silverbackapp.com/, grab a corner of the browser window and drag to resize). It's surprisingly easy to implement, to boot. And if you're using Sass for your CSS, it's even easier now--just use this mixin.
 
-The only requirements in order to use this mixin are:
+The only requirements for using this mixin are:
 1) Alpha transparent images for your background, midground, and foreground, and
-2) An alternative solution for IE6. 
+2) An alternative solution for IE6.
