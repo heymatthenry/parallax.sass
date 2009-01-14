@@ -1,0 +1,33 @@
+// The only markup requirement to accompany this mixin
+// is that the background, midground, and foreground be
+// nested like so:
+//
+// #background
+//   #midground
+//     #foreground
+//
+// Although even that's not strictly necessary as long
+// You're willing to do a little z-indexing.
+
+=background
+  :background
+    :position 20% 0
+    // Add your background image here.
+    :image url(background.png)
+    :repeat repeat-x
+    
+=midground
+  :background 
+    :position 40% 0
+    // Add your midground image here.
+    // Alpha transparency is necessary.
+    :image url(midground.png)
+    :repeat no-repeat
+     
+=foreground
+  :background
+    :position 150% 0
+    // Add your foreground image here.
+    // Alpha transparency is necessary.
+    :image url(foreground.png)
+    :repeat repeat-x
